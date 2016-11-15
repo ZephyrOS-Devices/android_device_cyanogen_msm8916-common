@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     ro.telephony.call_ring.multiple=false \
     ro.use_data_netmgrd=true \
-    ro.sdcardfs.enable=true
+    ro.sys.sdcardfs=true
 
 # RIL
 PRODUCT_PACKAGES += \
